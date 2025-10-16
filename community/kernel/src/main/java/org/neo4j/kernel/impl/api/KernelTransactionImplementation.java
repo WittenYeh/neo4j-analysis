@@ -349,6 +349,9 @@ public class KernelTransactionImplementation implements KernelTransaction, TxSta
             DatabaseSerialGuard databaseSerialGuard,
             boolean multiVersioned,
             TopologyGraphDbmsModel.HostedOnMode mode) {
+        
+        
+        
         this.logProvider = logProvider;
         this.closed = true;
         this.timeout = TransactionTimeout.NO_TIMEOUT;
